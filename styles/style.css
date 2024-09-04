@@ -1,0 +1,43 @@
+:root {
+    --primary-background-color :#FFFBEB;  
+
+    --text-color-tan : #78350F;
+    --text-color-dark : #0F172A;
+    --text-color-grey-blue: #475569;
+    --text-color-ice-blue:#E2E8F0;  
+    --rectangle-color: #FEF3C7;
+
+    --white : #FFFFFF;
+    --black : #000000;
+
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: var(--primary-background-color);
+
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 72px;
+  }

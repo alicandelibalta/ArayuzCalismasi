@@ -1,0 +1,56 @@
+.navbar-brand, .nav-link {
+    color: var(--text-color-tan);
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media (max-width: 50%) {
+    .navbar-nav {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: block; 
+    }
+}
+
+.navbar-brand {
+    font-size: 35.2px;
+
+    padding: 30.5px 80px;
+}
+
+.navbar-nav {
+    padding: 24px 80px;
+}
+.nav-item {
+    padding-right: 16px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.btn-outline-primary {
+    color: var(--text-color-tan);
+    width: 149px;
+    height: 48px;
+
+    border: 2px solid var(--text-color-tan);
+}
+
+.btn-outline-primary:hover {
+    background-color:var(--text-color-tan);
+    border-color: var(--text-color-tan);
+
+    color: (var(--white));
+}

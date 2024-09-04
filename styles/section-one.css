@@ -1,0 +1,8 @@
+.section-one-h1 {
+    color: var(--text-color-dark);
+}
+
+.section-one-up-left {
+    width : 714px;
+    height: 257px;
+}

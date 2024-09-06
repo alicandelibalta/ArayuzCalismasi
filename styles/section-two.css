@@ -1,6 +1,8 @@
 .buy-now-card {
     width: 25rem;
     background-color: var(--text-color-dark);
+
+    box-shadow: 8px 10px 30px rgba(175, 171, 171, 0.2), -8px 10px 30px rgba(175, 171, 171, 0.2);
 }
 
 .section-two {

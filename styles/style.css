@@ -44,3 +44,8 @@ a{
 h1 {
   font-size: 72px;
 }
+
+footer {
+  background-color: var(--text-color-dark);
+  color: var(--text-color-ice-blue);
+}

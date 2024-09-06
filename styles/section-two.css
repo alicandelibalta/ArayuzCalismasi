@@ -1,0 +1,18 @@
+.buy-now-card {
+    width: 25rem;
+    background-color: var(--text-color-dark);
+}
+
+.section-two {
+    background-color: var(--text-color-dark);
+
+    color: var(--white);
+}
+
+
+.make-white {
+    border-color: var(--white);
+    color: var(--white);
+}
+
+

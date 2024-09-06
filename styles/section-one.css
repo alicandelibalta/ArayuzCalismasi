@@ -2,7 +2,14 @@
     color: var(--text-color-dark);
 }
 
-.section-one-up-left {
-    width : 714px;
-    height: 257px;
+.section-one-a {
+    color: var(--text-color-tan);
+}
+
+.section-one-button-group {
+    margin-top: 32px;
+}
+
+.section-one-p {
+    margin-top: 32px;
 }

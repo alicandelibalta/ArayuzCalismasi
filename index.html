@@ -16,62 +16,147 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/section-one.css" />
-
+    <link rel="stylesheet" href="styles/section-two.css" />
 
 
     <title>Document</title>
   </head>
 
   <body>
-    <header>
+    <header class="container-fluid overflow-hidden">
       <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#">Collers</a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Collers</a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
-                <span><img src="./icons/menu-scale.svg" alt="menu-scale"></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+          >
+            <span><img src="./icons/menu-scale.svg" alt="menu-scale" /></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Log In</a>
+              </li>
+              <button type="button" class="btn btn-outline-primary">
+                Sign up now
               </button>
-             
-              <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ms-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Products</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Solutions</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Resources</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Log In</a>
-                    </li>
-                    <button type="button" class="btn btn-outline-primary" >Sign up now</button>
-                  </ul>
-              </div>
+            </ul>
           </div>
-      </nav>
-  </header>
-
-    <section>
-     <div class="rectangle"></div>
-     <div class="section-one-container">
-      <div class="section-one-up">
-        <div class="section-one-up-left">
-          <h1 class="section-one-h1">Collectible Sneakers</h1>
-          <p>Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices amet.</p>
-          <button type="button" class="btn btn-outline-primary" >Sign up now</button>
-          <img src="./icons/play-circle.svg" alt="play">
         </div>
-       
-      </div>
-      <div class="section-one-down">blalbla</div>
-     </div>
+      </nav>
+    </header>
 
-    </section>
+      <!-- section one start -->
+      <div class="container-fluid">
+        <div class="row">
+            <div class=" col-md-6">
+              <h1 class="section-one-h1">Collectible Sneakers</h1>
+              <p class="section-one-p">
+                Sit elit feugiat turpis sed integer integer accumsan turpis. Sed
+                suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum
+                ultrices amet.
+              </p>
+              <div class="section-one-button-group">
+                <button type="button" class="btn btn-outline-primary">
+                  Sign up now
+                </button>
+                <img src="./icons/play-circle.svg" alt="play" />
+                <a href="#" class="section-one-a">Watch Demo</a>
+              </div>
+            </div>
+       
+    
+            <div class="col-md-6">
+            <img src="./images/Pexels Photo by Ray Piedra.svg" alt="">
+            </div>
+        </div>
+    
+        <div class="container-fluid">
+          <div class="row g-2">
+            <div class="col-md-4">
+              <div class="p-4">
+                <img src="./icons/cup-icon.svg" alt="cup">
+                <h2>Nibh viverra</h2>
+                <p>Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa. </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-4">
+                <img src="./icons/beret-icon.svg" alt="beret">
+                <h2>Cursus amet</h2>
+                <p>Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa. </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-4">
+                <img src="./icons/tv.svg" alt="beret">
+                <h2>Ipsum fermentum</h2>  
+                <p>Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa. </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section one end -->
+   
+    <!-- section two start -->
+    <div class="container-fluid section-two">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>The best of the best</h1>
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-outline-primary make-white">
+            Sign up now
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card buy-now-card">
+            <img src="./images/shoe1.svg" class="card-img-top" alt="shoe1">
+            <div class="make-white">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+              <button type="button" class="btn btn-outline-primary make-white">
+                <img src="./icons/basket.svg" alt="basket">Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+
+
+
+
+      </div>
+
+    </div>
+
+    <!-- section two end -->
+
 
     <footer></footer>
 

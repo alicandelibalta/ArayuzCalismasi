@@ -1,3 +1,40 @@
 .section-four button {
     background: none;
 }
+
+.section-four h1 {
+    font-size: 56px;
+    padding-left: 80px;
+}
+
+.slider-card {
+    width: 384px;
+    height: 430px;
+
+}
+
+.slider-card h3{
+    padding-top: 48px;
+    padding-left: 32px;
+}
+
+.slider-card p{
+    padding-top: 16px;
+    padding-left: 32px;
+
+    font-size: 24px;
+}
+
+.slider-card .image-person{
+    padding-left: 32px;
+    padding-top: 16px;
+
+}
+
+.image-person p {
+    font-size: 18px;
+}
+
+.section-five img {
+    padding-right: 16px;
+}

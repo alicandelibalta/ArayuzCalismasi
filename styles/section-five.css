@@ -38,3 +38,22 @@
     height: auto;
   object-fit: cover;
 }
+
+.section-five-item {
+    margin: 16px;
+    padding: 16px;
+
+    font-size: 20px;
+}
+
+.section-five-list {
+    margin: 16px;
+    padding: 16px;
+}
+
+.section-five-list-button button {
+    width: 256px;
+    height: 56px;
+
+    font-size:20px ;
+}

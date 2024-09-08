@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="styles/section-three.css" />
     <link rel="stylesheet" href="styles/section-four.css" />
     <link rel="stylesheet" href="styles/section-five.css" />
+    <link rel="stylesheet" href="styles/section-six.css" />
     <link rel="stylesheet" href="styles/footer.css" />
-
 
     <title>Document</title>
   </head>
@@ -159,8 +159,36 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="card buy-now-card">
+            <img src="./images/shoe2.svg" class="card-img-top" alt="shoe2" />
+            <div class="make-white">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+              <button type="button" class="btn btn-outline-primary make-white">
+                <img src="./icons/basket.svg" alt="basket" />Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card buy-now-card">
+            <img src="./images/shoe3.svg" class="card-img-top" alt="shoe2" />
+            <div class="make-white">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+              <button type="button" class="btn btn-outline-primary make-white">
+                <img src="./icons/basket.svg" alt="basket" />Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- section two end -->
@@ -206,84 +234,76 @@
     <!-- section three end -->
 
     <!-- section four start -->
-    <div class="container-fluid">
+    <div class="container-fluid section-four">
       <div class="row">
-        <h1>Because they love us</h1>
+        <div class="col">
+          <h1>Because they love us</h1>
+        </div>
+        <div class="col">
+          <button><img src="./icons/slider-left-arrow.svg" alt="" /></button>
+          <button><img src="./icons/slider-right-arrow.svg" alt="" /></button>
+        </div>
       </div>
 
-      <div
-        id="recipeCarousel"
-        class="carousel slide w-100"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner w-100" role="listbox">
-          <div class="carousel-item active">
-            <div class="col-md-4">
-              <div class="card card-body">
-                <img class="img-fluid" src="http://placehold.it/380?text=1" />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-4">
-              <div class="card card-body">
-                <img class="img-fluid" src="http://placehold.it/380?text=2" />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-4">
-              <div class="card card-body">
-                <img class="img-fluid" src="http://placehold.it/380?text=2" />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-4">
-              <div class="card card-body">
-                <img class="img-fluid" src="http://placehold.it/380?text=2" />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-4">
-              <div class="card card-body">
-                <img class="img-fluid" src="http://placehold.it/380?text=2" />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-4">
-              <div class="card card-body">
-                <img class="img-fluid" src="http://placehold.it/380?text=2" />
-              </div>
+      <div class="row p-5">
+        <div class="col-md-3">
+          <div class="card slider-card">
+            <h3><img src="./icons/zoomer.svg" alt="" />Zoomerr</h3>
+            <p>
+              Non risus viver ra enim, quis. Eget vitae arcu vivamus sit tellus,
+              viverra turpis lorem. Varius a turpis urna id porttitor.
+            </p>
+            <div class="image-person">
+              <img src="./images/person1.svg" alt="person" />
+              <p>Hellen Jummy</p>
+              <p>Team Lead</p>
             </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev w-auto"
-          href="#recipeCarousel"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next w-auto"
-          href="#recipeCarousel"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+        <div class="col-md-3">
+          <div class="card slider-card">
+            <h3><img src="./icons/shells.svg" alt="" />SHELLS</h3>
+            <p>
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.
+            </p>
+            <div class="image-person">
+              <img src="./images/person2.svg" alt="person" />
+              <p>Hellena John</p>
+              <p>Co-founder</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card slider-card">
+            <h3><img src="./icons/artvenue.svg" alt="" />ArtVenue</h3>
+            <p>
+              A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.
+            </p>
+            <div class="image-person">
+              <img src="./images/person3.svg" alt="person" />
+              <p>David Oshodi</p>
+              <p>Manager</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card slider-card">
+            <h3><img src="./icons/Waves.svg" alt="" />WAVES</h3>
+            <p>
+              Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.
+            </p>
+            <div class="image-person">
+              <img src="./images/person4.svg" alt="person" />
+              <p>Diana Sanchez</p>
+              <p>Worker</p>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
     <!-- section four end -->
@@ -342,9 +362,7 @@
             />
           </div>
 
-          <div
-            class="card img-container position-absolute "
-          >
+          <div class="card img-container position-absolute">
             <div class="image-header">
               <img src="./icons/circle-red.svg" alt="red" />
               <img src="./icons/circle-yellow.svg" alt="yellow" />
@@ -356,19 +374,26 @@
               alt="shoefront"
             />
           </div>
-          <div class="card position-absolute">
+          <div class="img-front-little position-absolute">
             <img
-              class="image p-2"
+              class="image"
               src="./images/one-leg-shoe-front-little.svg"
               alt="frontlittle"
             />
           </div>
-          
         </div>
       </div>
     </div>
-
     <!-- section five end -->
+
+    <!-- section six start -->
+    <div class="section-six">
+      <div class="col d-flex justify-content-center align-items-center">
+        <img class="world-map" src="./icons/world-map.svg" alt="worldmap" />
+      </div>
+    </div>
+
+    <!-- section six end -->
 
     <footer class="container-fluid section-footer">
       <div class="row">
@@ -402,15 +427,37 @@
             <li>Reports</li>
           </ol>
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+          <p>Get the app</p>
+          <div class="svg-container">
+            <img
+              class="svg-image first-svg"
+              src="./icons/footer-app-store.svg"
+              alt="appstoree"
+            />
+            <img
+              class="svg-image second-svg"
+              src="./icons/footer-apple-content.svg"
+              alt="appstore"
+            />
+          </div>
+          <img src="./icons/footer-googleplay-content.svg" alt="googleplay" />
+          <p>Follow us</p>
+          <img src="./icons/footer-social Icons.svg" alt="social" />
+        </div>
       </div>
+      <hr>
       <div class="row">
-        <p>Collers @ 2023. All rights reserved.</p>
-        <ul>
-          <li>Terms</li>
-          <li>Privacy</li>
-          <li>Contact</li>
-        </ul>
+        <div class="col">
+          <p>Collers @ 2023. All rights reserved.</p>
+        </div>
+        <div class="col">
+          <ul>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </div>
     </footer>
 

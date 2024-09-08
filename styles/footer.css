@@ -1,3 +1,29 @@
 .section-footer {
-    padding-top: 2rem;
+  padding-top: 2rem;
+}
+
+.svg-container {
+  position: relative;
+  width: 119px; 
+  height: 40px; 
+
+  border:1px;
+  border-color: brown;
+}
+
+.svg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* SVG boyutunu konteynere göre ayarlamak için */
+  height: 100%;
+}
+
+.first-svg {
+  z-index: 1; /* Alt katman olarak */
+}
+
+.second-svg {
+  z-index: 2; /* Üst katman olarak */
+  opacity: 0.8; /* Üstteki SVG'nin şeffaflığı ile oynayabilirsiniz */
 }

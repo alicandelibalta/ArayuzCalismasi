@@ -16,3 +16,4 @@ slider card
                   <p>Hellen Jummy</p>
                   <p>Team Lead</p>
                 </div>
+</div>

@@ -1,3 +1,7 @@
+.section-five {
+    padding-bottom: 200px;
+}
+
 .section-five Button {
   width: 256px;
 }
@@ -24,6 +28,13 @@
   left: 150px;
 }
 
-.card.img-front-little {
+.img-front-little{
+    top: 200px;
+    left: 600px;
+}
+
+.img-front-little .image{
+    width: 100%; 
+    height: auto;
   object-fit: cover;
 }

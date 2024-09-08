@@ -1,0 +1,29 @@
+.section-five Button {
+  width: 256px;
+}
+
+.img-container .image {
+  object-fit: cover;
+}
+
+.card.img-container {
+  width: 759px;
+  height: 451px;
+  position: relative;
+}
+
+.card.img-container:nth-child(2) {
+  position: absolute;
+  top: 94px;
+  left: 94px;
+}
+
+.card.img-container:nth-child(3) {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.card.img-front-little {
+  object-fit: cover;
+}

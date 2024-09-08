@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="styles/section-two.css" />
     <link rel="stylesheet" href="styles/section-three.css" />
     <link rel="stylesheet" href="styles/section-four.css" />
+    <link rel="stylesheet" href="styles/section-five.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+
 
     <title>Document</title>
   </head>
@@ -188,7 +191,14 @@
           </div>
 
           <div class="col-md-6 p-5">
-            <iframe class="embed" src="..."></iframe>
+            <div class="card video-container p-2">
+              <div class="image-header">
+                <img src="./icons/circle-red.svg" alt="red" />
+                <img src="./icons/circle-yellow.svg" alt="yellow" />
+                <img src="./icons/circle-green.svg" alt="green" />
+              </div>
+              <iframe class="embed mt-3" src="..."></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -201,7 +211,11 @@
         <h1>Because they love us</h1>
       </div>
 
-      <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+      <div
+        id="recipeCarousel"
+        class="carousel slide w-100"
+        data-ride="carousel"
+      >
         <div class="carousel-inner w-100" role="listbox">
           <div class="carousel-item active">
             <div class="col-md-4">
@@ -271,15 +285,92 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      
     </div>
-
-    <!-- Bootstrap JS ve diğer gerekli dosyaları ekleyin -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
     <!-- section four end -->
 
-    <footer class="container-fluid">
+    <!-- section five start -->
+    <div class="container section-five">
+      <div class="row p-5">
+        <h1>Grow your collection</h1>
+        <p>
+          Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh
+          amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames
+          sit rhoncus. Nec magna sed interdum sit purus tellus. Et volutpat
+          proin neque placerat at bibendum quam tellus.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col md-3">
+          <button type="button" class="btn btn-outline-primary d-flex flex-col">
+            <img src="./icons/search-icon.svg" alt="search" />
+            Bibendum tellus
+            <img src="./icons/arrow-right.svg" alt="arrow" />
+          </button>
+          <ol>
+            <li>
+              <img src="./icons/Craseget-icon.svg" alt="craseget" />Cras eget
+            </li>
+            <li>
+              <img src="./icons/dolorpharetra-icon.svg" alt="dolor" />Dolor
+              Pharetra
+            </li>
+            <li>
+              <img src="./icons/ametfringila-icon.svg" alt="amet" />Amet,
+              fringilla
+            </li>
+            <li>
+              <img src="./icons/ametnibh-icon.svg" alt="ametnibh" />Amet nibh
+            </li>
+            <li>
+              <img src="./icons/sedvelit-icon.svg" alt="sedvelit" />Sed velit
+            </li>
+          </ol>
+        </div>
+
+        <div class="col-md-9 position-relative">
+          <div class="card img-container">
+            <div class="image-header">
+              <img src="./icons/circle-red.svg" alt="red" />
+              <img src="./icons/circle-yellow.svg" alt="yellow" />
+              <img src="./icons/circle-green.svg" alt="green" />
+            </div>
+            <img
+              class="image p-2"
+              src="./images/shoes-behind.svg"
+              alt="shoebehind"
+            />
+          </div>
+
+          <div
+            class="card img-container position-absolute "
+          >
+            <div class="image-header">
+              <img src="./icons/circle-red.svg" alt="red" />
+              <img src="./icons/circle-yellow.svg" alt="yellow" />
+              <img src="./icons/circle-green.svg" alt="green" />
+            </div>
+            <img
+              class="image p-2"
+              src="./images/shoes-front.svg"
+              alt="shoefront"
+            />
+          </div>
+          <div class="card position-absolute">
+            <img
+              class="image p-2"
+              src="./images/one-leg-shoe-front-little.svg"
+              alt="frontlittle"
+            />
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- section five end -->
+
+    <footer class="container-fluid section-footer">
       <div class="row">
         <div class="col-md-3">
           <ol>
@@ -329,5 +420,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
+    <!-- Bootstrap JS ve diğer gerekli dosyaları ekleyin -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

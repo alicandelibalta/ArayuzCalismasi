@@ -7,10 +7,9 @@
 
 .section-two {
     background-color: var(--text-color-dark);
-
+    
     color: var(--white);
 }
-
 
 .make-white {
     border-color: var(--white);

@@ -9,6 +9,11 @@
 
   --white: #ffffff;
   --black: #000000;
+
+  --red:#E11D48;
+  --yellow:#FBBF24;
+  --green:#22C55E;
+
 }
 
 @font-face {
